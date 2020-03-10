@@ -38,28 +38,28 @@
 
         <main class="modal__main">
           <div>
-            <span class="modal__main-span">
+            <div class="modal__main-div">
               <img class="img" src=".././assets/birth.png">
               Birth year <span class="api-data">{{birth_year}}</span>
-            </span>
-            <span class="modal__main-span">
+            </div>
+            <div class="modal__main-div">
               <img class="img" src=".././assets/species.png">
               Species <span class="api-data">{{speciesName}}</span>
-            </span>
-            <span class="modal__main-span">
+            </div>
+            <div class="modal__main-div">
               <img class="img" src=".././assets/gender.png">
               Gender <span class="api-data">{{gender}}</span>
-            </span>
+            </div>
           </div>
 
           <div>
-            <span class="modal__main-span">
+            <div class="modal__main-div">
               <img class="img"  src=".././assets/homeworld.png">
               Homeworld <span class="api-data">{{homeworldItem}}</span>
-            </span>
+            </div>
 
-            <span class="modal__main-last">
-              <div class="modal__main-span"><img class="img" src=".././assets/films.png">Films</div>
+            <div class="modal__main-last">
+              <div class="modal__main-div"><img class="img" src=".././assets/films.png">Films</div>
               <div class="modal__main-last-div">
                 <ul 
                   v-for="film in myFilms" 
@@ -70,7 +70,7 @@
                   </li>
                 </ul>
               </div> 
-            </span>
+            </div>
 
           </div>
         </main>
